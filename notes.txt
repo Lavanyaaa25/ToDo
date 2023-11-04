@@ -1,0 +1,82 @@
+ctrl+c = to stop server
+comment=select text and ctrl+/ 
+
+
+
+function returns jsx
+javascript in xml=jsx 
+use className
+for an expression with value {"Dave"} or {var_name}
+<p>{[1,2,3,4,5]} </p>for an array it will be rendered as string o/p= 12345 (javascript expression)
+<p>[1,2,3,4,5] </p> o/p= [1,2,3,4,5] rendered as html
+objects cannot be used like array rendered
+
+
+
+****************
+To see components: react developer tools
+right click,inspect then click >> beside console button then select components
+
+use styled components to style(search in google)
+
+
+
+****ARROW FUNCTION AND REGULAR FUNCTION*****
+
+arrow:
+const greet=()=>{
+    body
+}
+
+regular:
+const greet=function(){
+
+}
+
+
+Inside a regular JavaScript function, this value 
+(aka the execution context) is dynamic.
+
+The dynamic context means that the value of this
+ depends on how the function is invoked. In JavaScript, there are 4 ways
+  you can invoke a regular function.
+
+npm i react-icons --save-prod //move to production dependency instead of dev depeendcies
+dont use id/key in this case
+
+use ref hook=used only when changes
+
+use effect hook
+
+
+ npx json-server -p 3500 -w data/db.json 
+ port  3500 and watch
+ //local rest api
+
+ GET /items 200 6.406 ms - 222
+
+ fetching data, directly updating the DOM, and timers.
+
+useEffect accepts two arguments. The second argument is optional.
+
+useEffect(<function>, <dependency>)
+
+useEffect runs on every render. That means that when the count changes, a render happens, which then triggers another effect.
+
+
+useEffect(() => {
+  //Runs on every render
+});
+
+
+useEffect(() => {
+  //Runs only on the first render
+}, []);
+
+
+304-- cached response
+200--ok response
+404--error
+
+
+
